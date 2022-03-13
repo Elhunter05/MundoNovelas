@@ -1,0 +1,21 @@
+.donate {
+  background-image: url(./donate.jpg);
+  background-size: cover;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.donate button[type="button"] {
+  font-size: 3rem;
+  padding: 12px 28px;
+  width: 50%;
+  border-radius: 12px;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.donate button[type="button"]:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}

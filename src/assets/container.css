@@ -1,0 +1,37 @@
+.container > div {
+  display: block;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.55);
+}
+
+.container {
+  width: auto;
+  max-width: auto;
+  margin: auto;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr);
+  grid-template-rows: minmax(150px, auto);
+  gap: 0px;
+  grid-template-areas:
+    "topnav   topnav"
+    "main     main"
+    "footer   footer";
+}
+
+.container .main {
+  grid-area: main;
+  font-size: 3rem;
+  text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px rgb(29, 121, 212);
+  width: 100%;
+  object-fit: contain;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}

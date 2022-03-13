@@ -1,0 +1,41 @@
+.footer {
+  grid-area: footer;
+  color: white;
+  font-size: x-large;
+  justify-self: stretch;
+  align-self: stretch;
+  text-align: center;
+  background-image: url(./background_10.jpg);
+  background-size: cover;
+  color: black;
+  bottom: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

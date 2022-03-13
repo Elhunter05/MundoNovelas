@@ -1,0 +1,63 @@
+.header {
+  grid-area: header;
+  color: #fff;
+  padding-top: 10;
+  line-height: 85px;
+  justify-self: stretch;
+  align-self: stretch;
+  background-image: url(./background_1.jpg);
+}
+
+.header_top {
+  font-size: 4rem;
+  background-color: transparent;
+  color: rgb(170, 56, 36);
+  width: 100%;
+  object-fit: contain;
+  padding: 0px 10px 0;
+}
+
+.header_top h1 {
+  font-size: 4rem;
+}
+
+.header_top h2,
+h3 {
+  font-size: 3rem;
+}
+
+.header_nav {
+  font-size: 3rem;
+  color: white;
+  height: 10vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.header_nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 0;
+  text-decoration: none;
+  font-size: 37px;
+}
+
+.header_nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header_nav a:active {
+  background-color: orange;
+  color: white;
+}
+
+.header_nav input[type="text"] {
+  overflow: hidden;
+  float: right;
+  border: none;
+  margin-right: 16px;
+  font-size: 2rem;
+}
