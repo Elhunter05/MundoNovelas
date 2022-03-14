@@ -1,0 +1,76 @@
+[
+  {
+    "link": "emperors_domination",
+    "name": "La Dominación del Emperador",
+    "author": "Yanbi Xiaosheng",
+    "desc": "Hace diez millones de años, Li Qiye plantó un simple bambú de agua en el suelo. Hace ocho millones de años, Li Qiye tenía como mascota a un pez koi. Hace cinco millones de años, Li Qiye cuidó de una niña... En la actualidad, Li Qiye ha despertado de su sueño; el bambú de agua alcanzó el ápice de la cultivación; el pez koi se convirtió en un Dragón Dorado; la niña se convirtió en la Emperatriz Inmortal de los Nueve Mundos. Esta es una historia sobre un humano inmortal que fue el maestro del Demonio Santo, la Bestia Celestial y la Emperatriz Inmortal.",
+    "chapters": [
+      { "title": "Capítulo 1", "link": "chapter_1" },
+      { "title": "Capítulo 2", "link": "chapter_2" },
+      { "title": "Capítulo 3", "link": "chapter_3" },
+      { "title": "Capítulo 4", "link": "chapter_4" },
+      { "title": "Capítulo 5", "link": "chapter_5" }
+    ],
+    "genres": ["Xuanhuan", "Acción", "Fantasía"],
+    "imgUrl": "https://www.wuxiaworld.com/cdn-cgi/image/fit=contain,width=384,quality=75,format=auto/https://cdn.wuxiaworld.com/images/covers/emperor.jpg?ver=7e8c53aa1ebfa5f032ca14bde070fb48f142e173"
+  },
+  {
+    "link": "desolate_era",
+    "name": "Era Desolada",
+    "author": "I Eat Tomatoes",
+    "desc": "El destino nunca ha sido bueno con Ji Ning. Atacado por enfermedades y debilitado durante toda su vida en la Tierra, Ning supo desde el principio que moriría de adolescente. Lo que no sabía era que realmente existía la vida después de la muerte, y que el universo era un lugar mucho más grande de lo que pensaba. Un giro afortunado del destino (uno de los pocos en la vida de Ning) significó que Ning renació en un mundo de Inmortales y monstruos, de Refinadores de Ki y poderosos Dioses Demonios. Un mundo que es a la vez más grande ... y sin embargo también más pequeño de lo que jamás podría imaginar. En esta nueva vida, Ning se juró a sí mismo: '¡nunca volveré a ser débil!'. La Era en la que nació era Desolada, pero Ning la convertiría en su era.",
+    "chapters": [
+      { "title": "Capítulo 1", "link": "chapter_1" },
+      { "title": "Capítulo 2", "link": "chapter_2" },
+      { "title": "Capítulo 3", "link": "chapter_3" },
+      { "title": "Capítulo 4", "link": "chapter_4" },
+      { "title": "Capítulo 5", "link": "chapter_5" }
+    ],
+    "genres": ["Xuanhuan", "Acción", "Fantasía"],
+    "imgUrl": "https://www.wuxiaworld.com/cdn-cgi/image/fit=contain,width=384,quality=75,format=auto/https://cdn.wuxiaworld.com/images/covers/de.jpg?ver=6a8b21616e397749f1a334a49aafe82e09ef2db9"
+  },
+  {
+    "link": "i_shall_seal_the_heavens",
+    "name": "Debo Sellar los Cielos",
+    "author": "Er Gen",
+    "desc": "Debo Sellar los Cielos es la historia del joven erudito Meng Hao, quien es reclutado por la fuerza en una secta de cultivadores inmortales. En el mundo del cultivo, los fuertes se aprovechan de los débiles y prevalece la ley de la jungla. Meng Hao debe adaptarse para sobrevivir. Lleno de comedia y drama, Debo Sellar los Cielos sigue siendo una de las historias de xianxia más queridas jamás traducidas. ¿Qué significa 'Sellar los cielos'? ¡Este es un secreto que tendrás que descubrir junto con Meng Hao!",
+    "chapters": [
+      { "title": "Capítulo 1", "link": "chapter_1" },
+      { "title": "Capítulo 2", "link": "chapter_2" },
+      { "title": "Capítulo 3", "link": "chapter_3" },
+      { "title": "Capítulo 4", "link": "chapter_4" },
+      { "title": "Capítulo 5", "link": "chapter_5" }
+    ],
+    "genres": [
+      "Xianxia",
+      "Acción",
+      "Romance",
+      "Comedia",
+      "Tragedia",
+      "Alquimia"
+    ],
+    "imgUrl": "https://www.wuxiaworld.com/cdn-cgi/image/fit=contain,width=384,quality=75,format=auto/https://cdn.wuxiaworld.com/images/covers/issth.jpg?ver=2962ed3c79be0e1644ed376f7bcee8b5eac1d24b"
+  },
+  {
+    "link": "soul_land",
+    "name": "Tierra del Alma",
+    "author": "Tang Jia San Shao",
+    "desc": "Secta Tang, la secta de artes marciales más famosa de todas. Al robar sus enseñanzas más secretas para cumplir sus sueños, Tang San cometió un crimen imperdonable. Una vez lograda su ambición, entrega su legado a la secta y se lanza desde el temible 'Hell's Peak'. Pero nunca podría haber imaginado que esto lo reencarnaría en otro mundo, uno sin magia, artes marciales y rencores. Una tierra donde solo se encuentran las almas místicas de la batalla. El continente de Douluo. ¿Cómo sobrevivirá Tang San en este entorno desconocido? Con un nuevo camino a seguir, comienza una nueva leyenda...",
+    "chapters": [
+      { "title": "Capítulo 1", "link": "chapter_1" },
+      { "title": "Capítulo 2", "link": "chapter_2" },
+      { "title": "Capítulo 3", "link": "chapter_3" },
+      { "title": "Capítulo 4", "link": "chapter_4" },
+      { "title": "Capítulo 5", "link": "chapter_5" }
+    ],
+    "genres": [
+      "Xuanhuan",
+      "Acción",
+      "Aventura",
+      "Fantasía",
+      "Artes marciales",
+      "Romance"
+    ],
+    "imgUrl": "https://novelfull.com/uploads/thumbs/douluo-dalu-7c70492964-2239c49aee6b961904acf173b7e4602a.jpg"
+  }
+]
