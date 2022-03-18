@@ -1,0 +1,95 @@
+.novel img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: #f4f4f4;
+  color: #000;
+  justify-content: center;
+}
+
+.card-img-top {
+  width: 10vw;
+}
+
+.card-body {
+  font-size: x-large;
+}
+
+.card-name {
+  color: orangered;
+  font-size: larger;
+}
+
+.card-author {
+  color: green;
+}
+
+.card-text,
+.list-genre-list {
+  color: black;
+}
+
+.genreTag {
+  font-size: x-large;
+  color: rgb(44, 12, 187);
+  text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px rgb(29, 121, 212);
+}
+
+.list-genre-item {
+  color: #000;
+  list-style: square;
+  font-size: large;
+}
+
+.novels-container {
+  width: auto;
+  max-width: auto;
+  margin: auto;
+  font-size: 3rem;
+  line-height: 50px;
+}
+
+.novels-main {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+
+.novel-chapters {
+  text-align: center;
+}
+
+.novel-chapters h3 {
+  font-size: xx-large;
+}
+
+.chapters {
+  font-size: x-large;
+  line-height: 1.42857143;
+}
+
+.chapter {
+  font-family: Arial, sans-serif, serif;
+  text-align: center;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #f4f4f4;
+  color: #4e4e4e;
+  line-height: 1.42857143;
+}
+
+.chapter h2 {
+  font-size: x-large;
+  color: brown;
+}
+
+.chapter p {
+  font-size: large;
+}

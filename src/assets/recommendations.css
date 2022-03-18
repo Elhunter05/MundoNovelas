@@ -1,0 +1,11 @@
+.recommendations {
+  color: white;
+  text-align: center;
+  background-image: url(./background_2.png);
+  background-size: cover;
+  font-size: x-large;
+}
+
+.recommendations h1 {
+  font-size: xx-large;
+}
