@@ -9,3 +9,8 @@
 .recommendations h1 {
   font-size: xx-large;
 }
+
+.fav-list {
+  background-color: rgb(255, 238, 0);
+  color: black;
+}
