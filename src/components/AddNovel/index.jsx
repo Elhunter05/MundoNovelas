@@ -6,14 +6,23 @@ const AddNovel = (props) => {
   const [genre, setGenre] = useState("");
 
   const [sequencer, setSequencer] = useState(props.recommendationsLength + 1);
+  const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
     setNovelName("");
     setGenre("");
-  }, [sequencer]);
+  }, [favorites]);
 
-  const addNovel = () => {
-    props.addNovel({ genre: genre, text: novelName, id: sequencer });
+  const addNovel = (e) => {
+    e.preventDefault();
+    setFavorites([
+      ...favorites,
+      {
+        genre: genre,
+        name: novelName,
+        id: sequencer,
+      },
+    ]);
     setSequencer(sequencer + 1);
   };
 
@@ -21,10 +30,11 @@ const AddNovel = (props) => {
     <div>
       <h1>Recomendaciones</h1>
       <p>
-        Si te gustaría ver traducida alguna otra novela no dudes en decírnoslo y
-        lo tendremos en cuenta para futuros proyectos.
+        Si te gustaría ver traducida alguna otra novela no dudes en decirnos
+        cuáles son tus novelas favoritas y lo tendremos en cuenta para futuros
+        proyectos.
       </p>
-      <form action="javascript:void(0);">
+      <form>
         <input
           id="tarea"
           type="text"
@@ -33,23 +43,34 @@ const AddNovel = (props) => {
           onChange={(event) => setNovelName(event.target.value)}
           placeholder="Nombre de la novela"
         />
+
         <select
           name="genre"
           id="genre"
           value={genre}
           onChange={(e) => setGenre(e.target.value)}
         >
-          <option value="" disabled selected>
+          <option value="" disabled>
             Género
           </option>
-          <option value="genre-wuxia">Wuxia</option>
-          <option value="genre-xianxia">Xianxia</option>
-          <option value="genre-xuanhuan">Xuanhuan</option>
+          <option value="Género: Wuxia">Wuxia</option>
+          <option value="Género: Xianxia">Xianxia</option>
+          <option value="Género: Xuanhuan">Xuanhuan</option>
         </select>
         <button id="agregar" onClick={addNovel}>
           ¡Recomendar!
         </button>
       </form>
+
+      <ul className="fav-list">
+        {favorites.map((favorite, i) => {
+          return (
+            <li key={i}>
+              {favorite.name} - {favorite.genre}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };
