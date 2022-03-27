@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 const AddNovel = (props) => {
   const [novelName, setNovelName] = useState("Nombre de la novela");
   const [genre, setGenre] = useState("");
-
   const [sequencer, setSequencer] = useState(props.recommendationsLength + 1);
   const [favorites, setFavorites] = useState([]);
 
@@ -28,12 +27,6 @@ const AddNovel = (props) => {
 
   return (
     <div>
-      <h1>Recomendaciones</h1>
-      <p>
-        Si te gustaría ver traducida alguna otra novela no dudes en decirnos
-        cuáles son tus novelas favoritas y lo tendremos en cuenta para futuros
-        proyectos.
-      </p>
       <form>
         <input
           id="tarea"
